@@ -1,4 +1,4 @@
-使用parcel构建React工程的demo
+## 使用parcel构建React工程的demo
 
 ```
 yarn start   # 启用本地开发调试
