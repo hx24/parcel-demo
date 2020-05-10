@@ -1,0 +1,36 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hx24/parcel-demo.git",
+  "author": "hx24 <83036406@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/preset-react": "^7.9.4",
+    "babel-core": "^6.26.3",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.3",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "16.13.0",
+    "@zohodesk/icons": "1.0.0-beta.27",
+    "axios": "^0.19.2",
+
+    "react": "^16.13.1",
+    "react-dom": "16.13.0",
+    "react-hot-loader": "^4.12.21",
+    "react-router-dom": "^5.1.2"
+  },
+  "alias": {
+    "react-dom": "@hot-loader/react-dom",
+    "components": "./src/components"
+  }
+}
