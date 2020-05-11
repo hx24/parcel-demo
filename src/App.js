@@ -1,11 +1,16 @@
-import { hot } from "react-hot-loader"
+import { hot } from 'react-hot-loader'
 import React, { Component } from 'react'
-import Home from 'components/Home'
+import PluginDemo from './components/PluginDemo'
+import Counter from './components/Counter'
+import './ttt'
 
 class App extends Component {
   render() {
     return (
-      <Home />
+      <div>
+        <PluginDemo />
+        <Counter />
+      </div>
     )
   }
 }
